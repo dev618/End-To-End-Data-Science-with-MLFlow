@@ -46,7 +46,7 @@ def index():
 
         except Exception as e:
             print('The Exception message is: ',e)
-            return 'something is wrong'
+            return 'something is happen wrong'
 
     else:
         return render_template('index.html')
